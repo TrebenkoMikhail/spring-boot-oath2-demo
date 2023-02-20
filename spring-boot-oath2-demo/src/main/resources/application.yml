@@ -1,0 +1,9 @@
+server:
+  port:8088
+spring:
+  security:
+    oauth2:
+      resourceServer:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/master #/.well-known/openid-configuration
+          jwk-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
