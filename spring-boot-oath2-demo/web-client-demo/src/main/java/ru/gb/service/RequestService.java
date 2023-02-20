@@ -11,7 +11,7 @@ import java.util.UUID;
 @Slf4j
 @Service
 public class RequestService {
-//    @Scheduled
+
     public void doRequest() {
         WebClient webClient = WebClient.create();
 

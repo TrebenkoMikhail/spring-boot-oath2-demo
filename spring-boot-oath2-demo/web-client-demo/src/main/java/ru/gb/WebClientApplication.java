@@ -7,12 +7,11 @@ import ru.gb.service.RequestService;
 
 @SpringBootApplication
 public class WebClientApplication {
+
     public static void main(String[] args) {
 
         ConfigurableApplicationContext context = SpringApplication.run(WebClientApplication.class);
         RequestService requestService = context.getBean(RequestService.class);
         requestService.doRequest();
     }
-
-
 }
