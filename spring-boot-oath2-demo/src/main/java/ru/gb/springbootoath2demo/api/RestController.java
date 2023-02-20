@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping("/api")
 public class RestController {
-
     @GetMapping("/resource")
     public String resource() {
         return "Content";

@@ -14,7 +14,6 @@ public class RestController {
     public String storage() {
         return storage;
     }
-
     @PostMapping("/storage")
     public String updateStorage(@RequestBody String content) {
         this.storage = content;

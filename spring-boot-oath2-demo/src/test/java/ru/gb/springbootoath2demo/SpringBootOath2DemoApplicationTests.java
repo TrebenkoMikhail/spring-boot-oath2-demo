@@ -9,5 +9,4 @@ class SpringBootOath2DemoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
